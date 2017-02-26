@@ -14,7 +14,7 @@
 import "phoenix_html"
 
 const elmDiv = document.getElementById('elm-main')
-, elmApp = Elm.SeatSaver.embed(elmDiv)
+, elmApp = Elm.App.embed(elmDiv)
 
 // Import local files
 //
