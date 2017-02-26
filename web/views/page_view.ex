@@ -1,7 +1,9 @@
 defmodule PublicHtml.PageView do
   use PublicHtml.Web, :view
   
-  def get_volume do
+  defp half_gigabyte(), do: 1024 * 1024 * 2 * 100
+
+  defp get_volume() do
     hash = System.cmd "df", []
     snapshot = elem hash, 0
     [head | tail] = String.split snapshot, "\n"
@@ -13,5 +15,21 @@ defmodule PublicHtml.PageView do
     ratio_for_used = used_volume / entire_volume
     ratio_for_available = available_volume / entire_volume
     {ratio_for_used, ratio_for_available, entire_volume}
+  end
+
+  def get_free_volume_ratio() do
+    Float.round elem(get_volume(), 1) * 100, 1
+  end
+
+  def get_using_volume_ratio() do
+    Float.round elem(get_volume(), 0) * 100, 1
+  end
+
+  def get_free_volume() do
+    Float.round get_free_volume_ratio() * elem(get_volume(), 2) / half_gigabyte(), 1
+  end
+
+  def get_using_volume() do
+    Float.round get_using_volume_ratio() * elem(get_volume(), 2) / half_gigabyte(), 1
   end
 end
