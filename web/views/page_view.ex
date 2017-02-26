@@ -2,8 +2,9 @@ defmodule PublicHtml.PageView do
   use PublicHtml.Web, :view
   
   def get_volume do
-    snapshot = elem (System.cmd "df", {}), 0
-    [head | tail] = String.split(snapshot, "\n")
+    hash = System.cmd "df", []
+    snapshot = elem hash, 0
+    [head | tail] = String.split snapshot, "\n"
     volume_info = String.split (List.first tail), " ", trim: true
     [disk_info | [entire_volume
 		  | [used_volume | [available_volume | etc]]]] = volume_info

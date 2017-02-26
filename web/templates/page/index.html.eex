@@ -1,3 +1,8 @@
-<%= elem(get_volume, 0) %>
+<h1>
+  사용 공간 : <%= Float.round (using=elem(get_volume, 0)) * 100, 1 %>%(<%= Float.round elem(get_volume, 2) * using / (1024*1024*2), 1 %>GB)
+</h1>
+<h1>
+  여유 공간 : <%= Float.round (available=elem(get_volume, 1))*100, 1 %>%(<%= Float.round elem(get_volume, 2) * available / (1024*1024*2), 1 %>GB)
+</h1>
 <div id="elm-main">
 </div>
