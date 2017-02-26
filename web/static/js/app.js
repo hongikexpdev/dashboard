@@ -13,6 +13,9 @@
 // to also remove its path from "config.paths.watched".
 import "phoenix_html"
 
+const elmDiv = document.getElementById('elm-main')
+, elmApp = Elm.SeatSaver.embed(elmDiv)
+
 // Import local files
 //
 // Local files can be imported directly using relative
