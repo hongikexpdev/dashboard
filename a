@@ -1,0 +1,169 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Jan12 ?        00:00:12 /sbin/init
+root         2     0  0 Jan12 ?        00:00:00 [kthreadd]
+root         3     2  0 Jan12 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 Jan12 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 Jan12 ?        00:00:11 [rcu_sched]
+root         8     2  0 Jan12 ?        00:00:00 [rcu_bh]
+root         9     2  0 Jan12 ?        00:00:00 [migration/0]
+root        10     2  0 Jan12 ?        00:00:00 [lru-add-drain]
+root        11     2  0 Jan12 ?        00:00:00 [cpuhp/0]
+root        12     2  0 Jan12 ?        00:00:00 [cpuhp/1]
+root        13     2  0 Jan12 ?        00:00:00 [migration/1]
+root        14     2  0 Jan12 ?        00:00:00 [ksoftirqd/1]
+root        16     2  0 Jan12 ?        00:00:00 [kworker/1:0H]
+root        17     2  0 Jan12 ?        00:00:00 [kdevtmpfs]
+root        18     2  0 Jan12 ?        00:00:00 [netns]
+root       303     2  0 Jan12 ?        00:00:00 [oom_reaper]
+root       304     2  0 Jan12 ?        00:00:00 [writeback]
+root       306     2  0 Jan12 ?        00:00:00 [kcompactd0]
+root       307     2  0 Jan12 ?        00:00:00 [crypto]
+root       308     2  0 Jan12 ?        00:00:00 [kintegrityd]
+root       309     2  0 Jan12 ?        00:00:00 [bioset]
+root       311     2  0 Jan12 ?        00:00:00 [kblockd]
+root       426     2  0 Jan12 ?        00:00:00 [ata_sff]
+root       440     2  0 Jan12 ?        00:00:00 [md]
+root       535     2  0 Jan12 ?        00:00:00 [rpciod]
+root       537     2  0 Jan12 ?        00:00:00 [xprtiod]
+root       686     2  0 Jan12 ?        00:00:00 [kswapd0]
+root       687     2  0 Jan12 ?        00:00:00 [vmstat]
+root       791     2  0 Jan12 ?        00:00:00 [ecryptfs-kthrea]
+root       793     2  0 Jan12 ?        00:00:00 [nfsiod]
+root       801     2  0 Jan12 ?        00:00:00 [cifsiod]
+root       815     2  0 Jan12 ?        00:00:00 [jfsIO]
+root       816     2  0 Jan12 ?        00:00:00 [jfsCommit]
+root       817     2  0 Jan12 ?        00:00:00 [jfsCommit]
+root       818     2  0 Jan12 ?        00:00:00 [jfsSync]
+root       819     2  0 Jan12 ?        00:00:00 [bioset]
+root       828     2  0 Jan12 ?        00:00:00 [xfsalloc]
+root       829     2  0 Jan12 ?        00:00:00 [xfs_mru_cache]
+root       831     2  0 Jan12 ?        00:00:00 [glock_workqueue]
+root       832     2  0 Jan12 ?        00:00:00 [delete_workqueu]
+root       837     2  0 Jan12 ?        00:00:00 [gfs_recovery]
+root       935     2  0 Jan12 ?        00:00:00 [acpi_thermal_pm]
+root      1468     2  0 Jan12 ?        00:00:00 [bioset]
+root      1469     2  0 Jan12 ?        00:00:00 [bioset]
+root      1470     2  0 Jan12 ?        00:00:00 [bioset]
+root      1471     2  0 Jan12 ?        00:00:00 [bioset]
+root      1472     2  0 Jan12 ?        00:00:00 [bioset]
+root      1473     2  0 Jan12 ?        00:00:00 [bioset]
+root      1474     2  0 Jan12 ?        00:00:00 [bioset]
+root      1475     2  0 Jan12 ?        00:00:00 [bioset]
+root      1476     2  0 Jan12 ?        00:00:00 [bioset]
+root      1477     2  0 Jan12 ?        00:00:00 [bioset]
+root      1478     2  0 Jan12 ?        00:00:00 [bioset]
+root      1479     2  0 Jan12 ?        00:00:00 [bioset]
+root      1480     2  0 Jan12 ?        00:00:00 [bioset]
+root      1481     2  0 Jan12 ?        00:00:00 [bioset]
+root      1482     2  0 Jan12 ?        00:00:00 [bioset]
+root      1483     2  0 Jan12 ?        00:00:00 [bioset]
+root      1517     2  0 Jan12 ?        00:00:00 [bioset]
+root      1520     2  0 Jan12 ?        00:00:00 [bioset]
+root      1523     2  0 Jan12 ?        00:00:00 [bioset]
+root      1526     2  0 Jan12 ?        00:00:00 [bioset]
+root      1529     2  0 Jan12 ?        00:00:00 [bioset]
+root      1532     2  0 Jan12 ?        00:00:00 [bioset]
+root      1535     2  0 Jan12 ?        00:00:00 [bioset]
+root      1538     2  0 Jan12 ?        00:00:00 [bioset]
+root      1541     2  0 Jan12 ?        00:00:00 [bioset]
+root      1542     2  0 Jan12 ?        00:00:00 [bioset]
+root      1543     2  0 Jan12 ?        00:00:00 [bioset]
+root      1544     2  0 Jan12 ?        00:00:00 [bioset]
+root      1545     2  0 Jan12 ?        00:00:00 [bioset]
+root      1546     2  0 Jan12 ?        00:00:00 [bioset]
+root      1547     2  0 Jan12 ?        00:00:00 [bioset]
+root      1548     2  0 Jan12 ?        00:00:00 [bioset]
+root      1549     2  0 Jan12 ?        00:00:00 [bioset]
+root      1550     2  0 Jan12 ?        00:00:00 [bioset]
+root      1551     2  0 Jan12 ?        00:00:00 [bioset]
+root      1552     2  0 Jan12 ?        00:00:00 [bioset]
+root      1553     2  0 Jan12 ?        00:00:00 [bioset]
+root      1554     2  0 Jan12 ?        00:00:00 [bioset]
+root      1555     2  0 Jan12 ?        00:00:00 [bioset]
+root      1556     2  0 Jan12 ?        00:00:00 [bioset]
+root      1590     2  0 Jan12 ?        00:00:00 [bioset]
+root      1591     2  0 Jan12 ?        00:00:00 [drbd-reissue]
+root      1592     2  0 Jan12 ?        00:00:00 [rbd]
+root      1594     2  0 Jan12 ?        00:00:00 [scsi_eh_0]
+root      1595     2  0 Jan12 ?        00:00:00 [scsi_tmf_0]
+root      1598     2  0 Jan12 ?        00:00:00 [bioset]
+root      1605     2  0 Jan12 ?        00:00:00 [bioset]
+root      1869     2  0 Jan12 ?        00:00:00 [scsi_eh_1]
+root      1879     2  0 Jan12 ?        00:00:00 [scsi_tmf_1]
+root      1881     2  0 Jan12 ?        00:00:00 [scsi_eh_2]
+root      1883     2  0 Jan12 ?        00:00:00 [scsi_tmf_2]
+root      1907     2  0 Jan12 ?        00:00:00 [kpsmoused]
+root      1919     2  0 Jan12 ?        00:00:00 [raid5wq]
+root      1923     2  0 Jan12 ?        00:00:00 [dm_bufio_cache]
+root      1946     2  0 Jan12 ?        00:00:00 [ipv6_addrconf]
+root      1963     2  0 Jan12 ?        00:00:00 [ceph-msgr]
+root      1992     2  0 Jan12 ?        00:00:00 [bioset]
+root      2004     2  0 Jan12 ?        00:00:00 [deferwq]
+root      2005     2  0 Jan12 ?        00:00:00 [bioset]
+root      2012     2  0 Jan12 ?        00:00:00 [bioset]
+root      2016     2  0 Jan12 ?        00:00:01 [kworker/1:1H]
+root      2017     2  0 Jan12 ?        00:00:04 [jbd2/sda-8]
+root      2018     2  0 Jan12 ?        00:00:00 [ext4-rsv-conver]
+root      2021     2  0 Jan12 ?        00:00:00 [kworker/0:1H]
+root      2035     1  0 Jan12 ?        00:00:47 /lib/systemd/systemd-journald
+root      2042     2  0 Jan12 ?        00:00:00 [kauditd]
+root      2065     1  0 Jan12 ?        00:00:00 /lib/systemd/systemd-udevd
+systemd+  3150     1  0 Jan12 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root      3379     1  0 Jan12 ?        00:00:01 /lib/systemd/systemd-logind
+syslog    3381     1  0 Jan12 ?        00:00:13 /usr/sbin/rsyslogd -n
+root      3404     1  0 Jan12 ?        00:00:00 /usr/sbin/cron -f
+root      3405     1  0 Jan12 ?        00:00:17 /usr/lib/accountsservice/accounts-daemon
+message+  3408     1  0 Jan12 ?        00:00:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      3476     1  0 Jan12 ?        00:00:06 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root      3493     1  0 Jan12 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root      3496     1  0 Jan12 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      3674     1  0 Jan12 ?        00:00:11 /usr/sbin/sshd -D
+root      3984     1  0 Jan15 ?        00:00:04 php-fpm: master process (/etc/php/7.0/fpm/php-fpm.conf)
+malkori+  4730     1  0 Jan14 ?        00:00:00 /lib/systemd/systemd --user
+malkori+  4745  4730  0 Jan14 ?        00:00:00 (sd-pam)
+root      5161     2  0 08:17 ?        00:00:00 [kworker/u4:1]
+root      5289 15547  0 08:23 pts/0    00:00:00 tmux
+root      5291     1  0 08:23 ?        00:00:00 tmux
+root      5292  5291  0 08:23 pts/1    00:00:00 -bash
+root      5378  5291  0 08:25 pts/2    00:00:00 -bash
+root      5440  5291  0 08:25 pts/3    00:00:00 -bash
+root      5516  5440  0 08:25 pts/3    00:00:00 /root/.pyenv/versions/3.6.0/bin/python3.6 /root/.pyenv/versions/3.6.0/bin/gunicorn -b 127.0.0.1:128 exp-homepage:app
+root      5548  5516  0 08:25 pts/3    00:00:00 /root/.pyenv/versions/3.6.0/bin/python3.6 /root/.pyenv/versions/3.6.0/bin/gunicorn -b 127.0.0.1:128 exp-homepage:app
+root      5562  5378  0 08:26 pts/2    00:00:02 /usr/lib/erlang/erts-8.2/bin/beam.smp -- -root /usr/lib/erlang -progname erl -- -home /root -- -pa /usr/local/lib/elixir/bin/../lib/eex/ebin /usr/local/lib/elixir/bin/../lib/elixir/ebin /usr/local/lib/elixir/bin/../lib/ex_unit/ebin /usr/local/lib/elixir/bin/../lib/iex/ebin /usr/local/lib/elixir/bin/../lib/logger/ebin /usr/local/lib/elixir/bin/../lib/mix/ebin -elixir ansi_enabled true -noshell -s elixir start_cli -extra /usr/local/bin/mix phoenix.server
+root      5586  5562  0 08:26 ?        00:00:00 erl_child_setup 1024
+root      5590  5586  0 08:26 ?        00:00:00 inet_gethost 4
+root      5591  5590  0 08:26 ?        00:00:00 inet_gethost 4
+postgres  5592 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(50703) idle
+postgres  5593 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(43477) idle
+postgres  5594 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(35907) idle
+postgres  5595 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(34977) idle
+postgres  5596 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(56317) idle
+postgres  5597 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(33753) idle
+postgres  5598 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(44567) idle
+postgres  5599 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(58163) idle
+postgres  5600 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(46919) idle
+postgres  5601 11200  0 08:26 ?        00:00:00 postgres: malkoring_admin public_html_dev 127.0.0.1(41291) idle
+root      5602  5586  0 08:26 ?        00:00:01 /usr/bin/node node_modules/brunch/bin/brunch watch --stdin
+www-data  5837  8524  0 08:35 ?        00:00:00 nginx: worker process
+www-data  5838  8524  0 08:35 ?        00:00:00 nginx: worker process
+root      6189  5378  0 08:51 pts/2    00:00:00 ps -ef
+root      6834     2  0 Jan16 ?        00:00:00 [kworker/0:0]
+root      8524     1  0 Jan14 ?        00:00:00 nginx: master process nginx
+root     10974     2  0 01:14 ?        00:00:00 [kworker/1:1]
+postgres 11200     1  0 Jan15 ?        00:00:04 /usr/lib/postgresql/9.5/bin/postgres -D /var/lib/postgresql/9.5/main -c config_file=/etc/postgresql/9.5/main/postgresql.conf
+postgres 11204 11200  0 Jan15 ?        00:00:00 postgres: checkpointer process   
+postgres 11205 11200  0 Jan15 ?        00:00:00 postgres: writer process   
+postgres 11206 11200  0 Jan15 ?        00:00:00 postgres: wal writer process   
+postgres 11207 11200  0 Jan15 ?        00:00:02 postgres: autovacuum launcher process   
+postgres 11208 11200  0 Jan15 ?        00:00:02 postgres: stats collector process   
+root     11221     2  0 Jan15 ?        00:00:03 [kworker/1:2]
+root     15359  3674  0 07:59 ?        00:00:00 sshd: malkoring [priv]
+malkori+ 15375 15359  0 07:59 ?        00:00:00 sshd: malkoring@pts/0
+malkori+ 15376 15375  0 07:59 pts/0    00:00:00 -bash
+root     15546 15376  0 08:04 pts/0    00:00:00 su
+root     15547 15546  0 08:04 pts/0    00:00:00 /bin/bash
+root     21076     2  0 08:08 ?        00:00:00 [kworker/u4:2]
+www-data 22777  3984  0 Jan15 ?        00:00:08 php-fpm: pool www
+www-data 23001  3984  0 Jan15 ?        00:00:07 php-fpm: pool www
+www-data 24644  3984  0 Jan15 ?        00:00:05 php-fpm: pool www
+root     30437     2  0 Jan16 ?        00:00:00 [kworker/0:2]
