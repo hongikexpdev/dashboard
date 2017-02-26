@@ -18,6 +18,7 @@ erl_crash.dump
 
 # elm-stuffs
 /web/elm/elm-stuffs
+/elm-stuffs
 
 # The config/prod.secret.exs file by default contains sensitive
 # data and you should not commit it into version control.
