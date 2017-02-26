@@ -43,7 +43,7 @@ exports.config = {
     watched: [
 	"web/static",
 	"test/static",
-	"web/elm/SeatServer.elm"
+	"web/elm/App.elm"
     ],
 
     // Where to compile files to
@@ -54,7 +54,7 @@ exports.config = {
     plugins: {
 	elmBrunch: {
 	    elmFolder: "web/elm",
-	    mainModules: ["SeatSaver.elm"],
+	    mainModules: ["App.elm"],
 	    outputFolder: "../static/vendor"
 	},
 	babel: {
