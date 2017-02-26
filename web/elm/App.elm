@@ -1,6 +1,11 @@
-module SeatSaver exposing (..)
+module App exposing (..)
 
 import Html
 
 main =
-  Html.text "Hell from Elm"
+    view
+
+-- View
+
+view =
+    Html.text "Hell world from Elm"
